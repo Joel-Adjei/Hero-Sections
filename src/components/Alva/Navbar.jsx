@@ -11,9 +11,9 @@ const NavBar = () => {
     return (
         <div className={"z-40"}>
             <nav className={"flex h-fit items-center justify-between w-full font-[Montserrat]"} >
-                <div className={"flex items-center justify-between gap-17"}>
+                <div className={"flex items-center justify-between lg:gap-14"}>
 
-                    <div className={"flex items-center justify-between gap-1"}>
+                    <div className={"flex items-center justify-between gap-1 "}>
                         <button
                             className={"block md:hidden cursor-pointer mr-2"}
                             onClick={()=> setDisplayMobileNav("flex")}

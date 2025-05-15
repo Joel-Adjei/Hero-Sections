@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/Alva/Navbar";
 import {AiOutlineArrowRight} from "react-icons/ai";
+import HeroContent from "../components/Alva/HeroContent";
 
 const Alva = () => {
     return (
@@ -10,6 +11,10 @@ const Alva = () => {
                 <AiOutlineArrowRight color={"black"} />
             </div>
             <NavBar />
+
+            <div className={"mt-10 md:mt-5"}>
+                <HeroContent />
+            </div>
         </div>
     )
 }
