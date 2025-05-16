@@ -19,4 +19,4 @@ const popularSongs = [
     {title: "I'm a child of God" , desc: "Some description",  id: 5},
     {title: "Good" , desc: "Some description",  id: 6},
 ]
-export { img01Female , circleImg1 , circleImg2 , circleImg3 , circleImg4 , music , popularSongs , soundTrackImg ,syngriImg}
+export { img01Female , circleImg1 , circleImg2 , circleImg3 , circleImg4 , music , popularSongs}

@@ -1,6 +1,6 @@
 import React, {useRef} from "react";
 import {Link} from "react-router";
-import {soundTrackImg, syngriImg , alva} from "./assets/constant";
+import {soundTrackImg, syngriImg, alva, locqube} from "./assets/constant";
 
 
 function DivContainers ({title , to , src , color= "bg-black"}){
@@ -36,7 +36,7 @@ const App = () => {
                 <DivContainers color={"bg-purple-900"} src={syngriImg} title={"Syngri"} to={"/syngri"} />
                 <DivContainers color={"bg-green-900"} src={soundTrackImg} title={"SoundTrack"} to={"/soundtrack"} />
                 <DivContainers color={"bg-gray-700"} src={alva}  title={"Alva"} to={"/alva"} />
-                <DivContainers  title={"Locqube"} to={"/locqube"} />
+                <DivContainers src={locqube}  title={"Locqube"} to={"/locqube"} />
             </ul>
         </div>
     )
