@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/Alva/Navbar";
 import {AiOutlineArrowRight} from "react-icons/ai";
 import HeroContent from "../components/Alva/HeroContent";
+import BottomLogos from "../components/Alva/BottomLogos";
 
 const Alva = () => {
     return (
@@ -14,6 +15,10 @@ const Alva = () => {
 
             <div className={"mt-10 md:mt-5"}>
                 <HeroContent />
+            </div>
+
+            <div className={"py-15 "}>
+                <BottomLogos />
             </div>
         </div>
     )

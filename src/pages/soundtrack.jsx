@@ -12,19 +12,22 @@ const SoundTrack = () => {
     return (
         <div className={"h-[100vh] w-full bg-white-100 p-2"}>
 
-            <div className={"relative w-full h-[70%] sm:h-140 md:h-110 lg:h-[90%] bg-gray-300 rounded-lg mb-3"}>
+            <div className={"relative w-full h-[90%] sm:h-140 md lg:h-[90%] bg-gray-300 rounded-lg mb-3"}>
                 <Backdrop />
+
                 <NavBar />
 
                 <div className={"w-[100%] pt-13 px-3 md:pl-10 md:w-[65%] md:pt-15 lg:w-[45%] lg:pl-23  z-10 "}>
                     <div className={" text-center w-[100%] md:text-left "}>
                         <HeroText />
                     </div>
+                    <div className={"z-20 absolute left-0 mt-45 w-full px-7 md:w-[70%] md:left-11 md:px-0 md:mt-10 lg:w-[60%] md:left-18 md:mt-18"}>
+                        <EmailInput />
+                    </div>
+
 
                 </div>
-                <div className={"absolute w-[100%] md:w-[75%] lg:w-[60%] px-6 bottom-5 md:bottom-15 lg:bottom-25 lg:pl-23"}>
-                    <EmailInput />
-                </div>
+
 
             </div>
 

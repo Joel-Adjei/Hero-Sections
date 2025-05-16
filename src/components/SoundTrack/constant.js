@@ -4,8 +4,6 @@ import circleImg2 from "../../assets/images/img-05-c2.jpg"
 import circleImg3 from "../../assets/images/img-06-c3.jpg"
 import circleImg4 from "../../assets/images/img-07-c4.jpg"
 
-import soundTrackImg from "../../assets/images/music.png"
-import syngriImg from "../../assets/images/creative.png"
 
 const music = [
     {title: "Good is Good" , desc: "Some description", img: circleImg4},

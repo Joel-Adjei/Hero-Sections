@@ -6,10 +6,11 @@ import {img01Female , circleImg1 , circleImg2 , circleImg3 , circleImg4} from ".
 const Backdrop = () => {
 
     return (
-        <div style={{zIndex: 0}} className={"w-100 sm:w-160 md:w-110 lg:w-190 h-82 sm:h-100 lg:h-140 absolute bottom-0 right-0 bg-blue-90 z-0 overflow-hidden"}>
-            <div  className={" w-full h-full md:h-full absolute right-0 bottom-0 z-0" }>
+        <div style={{zIndex: 0}} className={`w-[85%] right-10 lg:w-190 h-82  lg:h-140 absolute bottom-0 right-0 bg-blue-90 z-0 overflow-hidden
+                                                sm:w-110 sm:h-90 sm:right-27 md:w-[65%] md:h-[85%] md:right-0`}>
+            <div  className={"w-full h-full md:h-full absolute right-0 bottom-0 z-0" }>
                 <img
-                    className={"w-180 sm:w-160 right-0 md:w-200 absolute  md:right-[-50px] bottom-0 z-0"}
+                    className={"w-180  right-0  md:w-300 lg:w-200 absolute   md:right-[-50px] bottom-0 z-0"}
                     src={img01Female}
                 />
 

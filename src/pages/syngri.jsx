@@ -5,9 +5,9 @@ import HeroContent from "../components/Syngri/HeroContent";
 
 const Syngri = () => {
     return (
-        <div className={"bg md:overflow-hidden"}>
+        <div className={"bg md:overflow-hidden "}>
             {/*Background*/}
-            <div className={"absolute w-full h-full overflow-hidden"}>
+            <div className={"absolute w-full h-full overflow-hidden z-0"}>
                 <div className={"fade-boxShadow "}> </div>
                 <div className={"backdrop"}> </div>
             </div>
@@ -15,7 +15,7 @@ const Syngri = () => {
 
             <Navbar />
 
-            <div style={{marginTop: "100px", zIndex: "90", position: "relative"}}>
+            <div style={{marginTop: "100px", position: "relative"}} className={"z-20"}>
                 <HeroContent />
             </div>
 

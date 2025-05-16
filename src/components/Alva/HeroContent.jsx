@@ -28,7 +28,27 @@ const HeroContent = () => {
                         <AiFillPlusCircle size={20}/>
                     </button>
                 </div>
+
+                <div className={"flex gap-1 items-center mt-6"}>
+                    <div className={"flex gap-1 items-center"} >
+                        <div style={{zIndex: 5}} className={"size-10 md:size-13 rounded-full bg-gray-200 border-2 border-white "}>
+
+                        </div>
+                        <div style={{zIndex: 3}} className={"size-10 md:size-13 rounded-full bg-gray-200 border-2 border-white ml-[-17px]"}>
+
+                        </div>
+                        <div style={{zIndex: 1}} className={"size-10 md:size-13 rounded-full bg-gray-200 border-2 border-white ml-[-17px]"}>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <h5 className={"text-lg font-bold"}>12K+</h5>
+                        <p className={"text-sm"}>Some message is written here but I don't know</p>
+                    </div>
+                </div>
             </div>
+
             <div className={"py-7"}>
                 <div className={"size-85 lg:size-100 bg-gray-200 rounded-xl " }>
 
